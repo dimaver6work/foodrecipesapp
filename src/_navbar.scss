@@ -1,0 +1,35 @@
+.Navbar {
+    grid-area: Navbar;
+
+    color: #f4b46a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    @include adaptiv-font(25, 14);
+
+    // 4D2C37 F4B46A 9E8C8A EADDCD
+    img {
+        margin-top: 5px;
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        margin-left: 5rem;
+    }
+
+    div {
+        display: flex;
+        margin-right: 5rem;
+        p {
+            margin: 15px;
+            cursor: pointer;
+        }
+        p:hover {
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: #f4b46a;
+        }
+    }
+}

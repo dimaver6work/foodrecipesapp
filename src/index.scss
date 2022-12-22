@@ -1,0 +1,34 @@
+@import 'null';
+@import 'navbar';
+@import 'main';
+@import 'sidebarL';
+@import 'modalAdd';
+@import 'burger';
+@import 'loader';
+@import 'animate.css';
+@import 'modalRecipe';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #eaddcd;
+    z-index: -3;
+    background-image: url('./assets/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+// .content {
+//     display: flex;
+//     justify-content: center;
+//     position: relative;
+// }
+
+.container {
+    display: grid;
+    grid-template-columns: 0.6fr 2.3fr;
+    grid-template-rows: 0.3fr 2.7fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+        'Navbar Navbar'
+        'SidebarL Content';
+}

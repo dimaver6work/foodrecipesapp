@@ -1,0 +1,104 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.contentModal {
+  max-width: 600px;
+  border: 5px solid black;
+  padding: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+  h2 {
+    @include adaptiv-font(24, 16);
+    text-align: center;
+    color: #f4b46a;
+    margin-bottom: 20px;
+  }
+  .field {
+    color: black;
+    background-color: #eaddcd;
+    border-radius: 5px;
+    width: 220px;
+    height: 30px;
+    padding: 5px;
+    @include adaptiv-font(16, 13);
+  }
+  .sourse {
+    width: 400px;
+  }
+  .label {
+    margin-bottom: 5px;
+    display: block;
+    color: #f4b46a;
+    @include adaptiv-font(16, 13);
+    margin-top: 20px;
+  }
+  .add {
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .delete {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+  }
+  .submit {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .error {
+    color: red;
+    font-size: 16px;
+  }
+}
+
+.modal.active {
+  transform: scale(1);
+}
+.closeButton {
+  padding: 5px;
+  margin: 10px;
+  align-self: center;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+  overflow: scroll;
+}
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}

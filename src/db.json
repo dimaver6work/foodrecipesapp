@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Карбонара",
+    "img": "https://saboreiaavida.nestle.pt/sites/default/files/styles/receita_card_620x560/public/2020-10/Esparguete_Carbonara.png?h=fd38a500&itok=Q8HaT6be",
+    "ingredients": {
+      "Спагетти": 300,
+      "Ветчина": 300,
+      "Соус бешамель": 200
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ex iste sapiente quo nobis temporibus laborum amet qui quod. Aliquam, illo minima quos itaque animi tempore! Repudiandae omnis nisi eligendi.",
+    "category": "Основное",
+    "id": "1"
+  },
+  {
+    "name": "Куриные ножки в горчично-медовом соусе",
+    "img": "https://www.yabpoela.com/uploads/posts/2019-11/1574077692_1574077676.jpg",
+    "ingredients": {
+      "Куриные ножки": 1000,
+      "Мед": 50,
+      "Лук": 300
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ex iste sapiente quo nobis temporibus laborum amet qui quod. Aliquam, illo minima quos itaque animi tempore! Repudiandae omnis nisi eligendi.",
+    "category": "Основное",
+    "id": "2"
+  },
+  {
+    "name": "Котлеты",
+    "img": "https://2recepta.com/recept/domashnie-kotlety/domashnie-kotlety.jpg",
+    "ingredients": {
+      "Фарш": 500,
+      "Хлеб": 100,
+      "Лук": 300,
+      "Молоко": 100
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ex iste sapiente quo nobis temporibus laborum amet qui quod. Aliquam, illo minima quos itaque animi tempore! Repudiandae omnis nisi eligendi.",
+    "category": "Основное",
+    "id": "3"
+  },
+  {
+    "name": "Строгоноф",
+    "img": "https://www.fromvalerieskitchen.com/wordpress/wp-content/uploads/2019/10/Beef-Stroganoff-1200-5.jpg",
+    "ingredients": {
+      "Говядина": 800,
+      "Соленые огурцы": 100,
+      "Лук": 300,
+      "Сметана": 100
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ex iste sapiente quo nobis temporibus laborum amet qui quod. Aliquam, illo minima quos itaque animi tempore! Repudiandae omnis nisi eligendi.",
+    "category": "Основное",
+    "id": "4"
+  },
+  {
+    "name": "Плов",
+    "img": "https://img-global.cpcdn.com/recipes/255e7a55b4ded61795465fbf172c17d6c79a29f9c370b4e3f4a3115abf581922/1200x630cq70/photo.jpg",
+    "ingredients": {
+      "Свинина": 500,
+      "Рис": 300,
+      "Лук": 300,
+      "Морковь": 400,
+      "Томатная паста": 300,
+      "Чеснок": 30
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ex iste sapiente quo nobis temporibus laborum amet qui quod. Aliquam, illo minima quos itaque animi tempore! Repudiandae omnis nisi eligendi.",
+    "category": "Основное",
+    "id": "5"
+  },
+  {
+    "name": "Гороховый суп",
+    "img": "https://receptisalatov.com/content/recipes/144/main_b_kak-svarit-gorohovyiy-sup-podrobnyiy-retsept-s-foto.jpg",
+    "ingredients": {
+      "Свинина": 500,
+      "Рис": 300,
+      "Лук": 300,
+      "Морковь": 400,
+      "Томатная паста": 300,
+      "Чеснок": 30
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ex iste sapiente quo nobis temporibus laborum amet qui quod. Aliquam, illo minima quos itaque animi tempore! Repudiandae omnis nisi eligendi.",
+    "category": "Супы",
+    "id": "6"
+  },
+  {
+    "name": "Брауни",
+    "img": "https://klopotenko.com/wp-content/uploads/2022/05/brauni-s-kofe_siteweb-1000x600.jpg?v=1657617036",
+    "ingredients": {
+      "Мука": 500,
+      "Вишня": 400,
+      "Яйца": 3,
+      "Шоколад": 1
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ex iste sapiente quo nobis temporibus laborum amet qui quod. Aliquam, illo minima quos itaque animi tempore! Repudiandae omnis nisi eligendi.",
+    "category": "Десерты",
+    "id": "6"
+  },
+  {
+    "name": "Крабовый салат",
+    "img": "https://2recepta.com/recept/klassicheskij-krabovyj-salat-s-risom/klassicheskij-krabovyj-salat-s-risom.jpg",
+    "ingredients": {
+      "Крабовые палочки": 400,
+      "Огурцы": 300,
+      "Зеленый лук": 100,
+      "Майонез": 300,
+      "Яйца": 3
+    },
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ex iste sapiente quo nobis temporibus laborum amet qui quod. Aliquam, illo minima quos itaque animi tempore! Repudiandae omnis nisi eligendi.",
+    "category": "Другое",
+    "id": "6"
+  },
+  {
+    "name": "name 7",
+    "img": "img 7",
+    "ingredients": {},
+    "description": "description 7",
+    "category": "category 7",
+    "id": "7",
+    "newRecipe": {
+      "name": "Салат",
+      "img": "https://img.delo-vcusa.ru/2018/04/Salat-Horiatiki-s-brynzoj.jpg",
+      "ingredients": [
+        {
+          "ingredient": "Соль",
+          "sum": "20"
+        },
+        {
+          "ingredient": "Огурцы",
+          "sum": "200"
+        }
+      ],
+      "description": "https://delo-vcusa.ru/recept/salat-horiatiki-s-brynzoj/",
+      "category": "Другое",
+      "id": 1669733452405
+    }
+  }
+]
